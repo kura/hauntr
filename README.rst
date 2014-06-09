@@ -8,7 +8,7 @@ Hauntr - A theme for Pelican
 .. contents::
 
 .. figure:: https://raw.githubusercontent.com/kura/hauntr/master/haunter.png
-    :alt: Gastly, the Ghost Pokemon
+    :alt: Haunter, the evolved Pokemon form of Gastly
 
     (Image by `Kawiku <http://kawiku.deviantart.com/art/Haunter-350580512>`__)
 
