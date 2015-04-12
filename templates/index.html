@@ -4,7 +4,7 @@
     <article class="post">
         <header class="post-header">
             <span class="post-meta">
-                <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
+                <time datetime="{{ article.date|strftime('%Y-%m-%d') }}">{{ article.locale_date }}</time>
                 in <a href="{{ SITEURL }}/{{ article.category.url }}/">{{ article.category }}</a>
             </span>
             <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>

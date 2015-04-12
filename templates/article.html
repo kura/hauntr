@@ -3,7 +3,7 @@
 {% block content %}
 <article class="post">
     <span class="post-meta">
-        <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
+        <time datetime="{{ article.date|strftime('%Y-%m-%d') }}">{{ article.locale_date }}</time>
         in <a href="{{ SITEURL }}/{{ article.category.url }}/">{{ article.category }}</a>
     </span>
     <h1 class="post-title">
